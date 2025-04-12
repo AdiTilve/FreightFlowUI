@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title Style -->
+    <style name="TitleTextStyle">
+        <item name="android:textSize">100sp</item> <!-- Font size -->
+        <item name="android:textStyle">bold</item> <!-- Font weight -->
+        <item name="android:textColor">#000000</item> <!-- Black text color -->
+    </style>
+
+    <!-- Subtitle Style -->
+    <style name="SubTitleTextStyle">
+        <item name="android:textSize">40sp</item> <!-- Font size -->
+        <item name="android:textStyle">bold</item> <!-- Font weight -->
+        <item name="android:textColor">#000000</item>
+        <item name="android:titleMarginTop">10dp</item><!-- Black text color -->
+    </style>
+    <style name="ContentContainer">
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="InputContainer">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_width">10dp</item> <!-- Set a fixed width (e.g., 250dp) -->
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginStart">10dp</item>
+<!--        <item name="android:background">@drawable/rounded_background</item>-->
+    </style>
+
+    <style name="Input">
+        <item name="android:layout_height">48dp</item> <!-- Increased height to meet touch target requirement -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingStart">12dp</item> <!-- Added padding for easier text entry -->
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <style name="IconContainer">
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

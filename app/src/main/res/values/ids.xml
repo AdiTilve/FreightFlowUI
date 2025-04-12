@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="airlineTextView" type="id" />
+    <item name="flightHeaderTextView" type="id" />
+    <item name="routeTextView" type="id" />
+    <item name="landingTimeTextView" type="id" />
+    <item name="terminalTextView" type="id" />
+</resources>

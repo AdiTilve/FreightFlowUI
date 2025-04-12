@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FreightFlow</string>
+    <string name="toggle_password_visibility">Toggle Password Visibility</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>
